@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".grub"></activity>
+        <activity android:name=".Histoire" />
+        <activity android:name=".About" />
+        <activity android:name=".test" />
+        <activity android:name=".fanorona5" />
+        <activity android:name=".ActivityGagnant" />
+        <activity android:name=".PlateaudujeuActivity" />
+        <activity android:name=".MainActivity_SECONDAIRE" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="600dp"
+        android:layout_height="687dp"
+        android:layout_marginTop="29dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391"
+        app:srcCompat="@drawable/plateau5" />
+
+    <ImageView
+        android:id="@+id/pion11"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <ImageView
+        android:id="@+id/pion12"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <ImageView
+        android:id="@+id/pion13"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <ImageView
+        android:id="@+id/pion14"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <ImageView
+        android:id="@+id/pion15"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <ImageView
+        android:id="@+id/pion16"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="348dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <ImageView
+        android:id="@+id/pion17"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="348dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <ImageView
+        android:id="@+id/pion18"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="348dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <ImageView
+        android:id="@+id/pion19"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="348dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <ImageView
+        android:id="@+id/pion110"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="348dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <ImageView
+        android:id="@+id/pion21"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="576dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionj" />
+
+    <ImageView
+        android:id="@+id/pion22"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="576dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionj" />
+
+    <ImageView
+        android:id="@+id/pion23"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="576dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionj" />
+
+    <ImageView
+        android:id="@+id/pion24"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="576dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionj" />
+
+    <ImageView
+        android:id="@+id/pion25"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="576dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionj" />
+
+    <ImageView
+        android:id="@+id/pion26"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="504dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionj" />
+
+    <ImageView
+        android:id="@+id/pion27"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="504dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionj" />
+
+    <ImageView
+        android:id="@+id/pion28"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="504dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionj" />
+
+    <ImageView
+        android:id="@+id/pion29"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="504dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionj" />
+
+    <ImageView
+        android:id="@+id/pion210"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="504dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionj" />
+
+    <ImageView
+        android:id="@+id/pion211"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="424dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionj" />
+
+    <ImageView
+        android:id="@+id/pion112"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="424dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <ImageView
+        android:id="@+id/pion113"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="424dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <ImageView
+        android:id="@+id/pion212"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="424dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionj" />
+
+    <Button
+        android:id="@+id/button_11"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="252dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_12"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="252dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_13"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="252dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_14"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="252dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_15"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="252dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_21"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="332dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_22"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="332dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_23"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="332dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_24"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="336dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_25"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="336dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_31"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="412dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_32"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="412dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_33"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="412dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+
+    <Button
+        android:id="@+id/button_34"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="412dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_35"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="412dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+
+
+    <Button
+        android:id="@+id/button_41"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="492dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+
+    <Button
+        android:id="@+id/button_42"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="492dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_43"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="492dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_44"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="492dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_45"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="492dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_51"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="564dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_52"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="564dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_53"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="564dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_54"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="564dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+    <Button
+        android:id="@+id/button_55"
+        android:layout_width="67dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="564dp"
+        android:background="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pionn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
